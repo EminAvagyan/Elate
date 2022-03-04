@@ -317,8 +317,6 @@ h3{
 }
 .row_main{
 	display: flex;
-	height: 230px;
-	min-height: 230px;
 	width: 100%;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -470,6 +468,7 @@ h3{
 .a_before{
 	margin-top: 10px;
 	background-color: #F5B703;
+	border: 1px solid #F5B703;
 	color: black;
 	font-weight: bold;
 	border-radius: 32px;

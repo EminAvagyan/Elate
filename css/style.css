@@ -74,12 +74,8 @@ a:hover{
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.row123{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.main div:nth-child(3){
+	flex-direction: row-reverse;
 }
 .main_text{
 	text-align: center;
@@ -241,13 +237,13 @@ h3{
 		margin-bottom: 5px;
 	}
 	.main_text{
-		width: 700px;
+		max-width: 100%;
 		box-sizing:border-box;
 		padding-right:20px;
 		padding-left:20px;
 	}
 	.main{
-		width: 768px;
+		max-width: 100%;
 		flex-direction: column;
 		align-items: center;
 	}
@@ -271,7 +267,7 @@ h3{
 	.foot{
 		flex-direction: column;
 		align-items: center;
-		width: 768px;
+		max-width: 100%;
 	}
 	.wrap1{
 		margin-top: 30px;
