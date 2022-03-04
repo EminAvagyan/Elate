@@ -251,12 +251,12 @@ h3{
 		flex-direction: column;
 		align-items: center;
 	}
-	.row123{
-		flex-direction: column-reverse;
+	.main div:nth-child(3){
+		flex-direction: column !important;
 		align-items: center;
 	}
 	.footer_menu{
-		flex-direction: column;
+		flex-direction: column-reverse;
 		align-items: flex-start;
 		padding: 20px;
 		
