@@ -324,16 +324,15 @@ h3{
 }
 .row_text1{
 	width: 600px;
-	padding: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	font-size: 12px;
 }
 .row_text2{
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
+	align-items: baseline;
 }
 .row_text1 ul{
 	padding: 0;
@@ -342,11 +341,9 @@ h3{
 	list-style: none;
 }
 .row_text1 p{
-	font-size: 14px;
 	color: black;
 }
 .row_text1 b{
-	font-size: 14px;
 	color: black;
 }
 .img_con img{
