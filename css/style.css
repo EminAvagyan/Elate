@@ -9,6 +9,9 @@ header{
 	flex-direction: column;
 	width: 100%;
 }
+.container_header{
+	
+}
 footer{
 	background-color: #EAEAEA;
 	width: 100%;
@@ -86,11 +89,10 @@ a:hover{
 	padding-right: 5px;
 }
 .img_case img{
-	width: 500px;
+	max-width: 500px;
 	border-radius: 10px;
 }
 .text_case{
-	width: 450px;
 	max-width: 450px;
 	display: flex;
 	flex-direction: column;
@@ -217,6 +219,9 @@ h3{
 	color: white;
 }
 @media only screen and (max-width: 768px) {
+	header{
+		max-width: 100%;
+	}
 	.head {
 	  flex-direction: column;
 	  align-items: center;
@@ -272,5 +277,9 @@ h3{
 	.wrap1{
 		margin-top: 30px;
 		margin-bottom: 10px;
+	}
+	.img_case img{
+		max-width: 500px;
+		border-radius: 10px;
 	}
   }
